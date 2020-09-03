@@ -56,15 +56,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Intake (week 1)
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Na het eerste jaar bevind ik me nog op de blauwe piste. Ik vind het schrijven van code nogsteeds best lastig, en het is een beetje weggezakt. Maar ik vind het wel belangrijk om er beter in te worden.
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Voor mij is het belangrijk de website responsive is. Dit wil ik ook graag beter kunnen.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://www.airbnb.nl/
 
 **Screenshot(s):**
 
-![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/dummy-image.svg)
+![screenshot(s) die een goed beeld geven van de website die je gaat maken](images/airbnbdesktop.png)
+
 
 **Breakdown-schets(en):**
 
