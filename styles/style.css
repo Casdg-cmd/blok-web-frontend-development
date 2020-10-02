@@ -1,75 +1,50 @@
 /* CSS Document */
 *, *::after, *::before {
-  box-sizing:border-box;  
+box-sizing:border-box;
 }
-font-family: 'Roboto', sans-serif;
+body {
+font-family: myriad-pro, sans-serif;
+font-style: normal;
+font-weight: 300;
 
-nav {
-	background: green; 
-	width: 100vw;
-	height: 10vh;
 }
-h1 {
-font-family: 'Roboto', sans-serif;
-font-size: 22px;
-line-height: 26px;
+/*main {
+
+justify-content: center;
+}
+footer {
+color: #304454;
+}*/
+article {
+display:grid;
+grid-template-columns:1fr 1fr;
+grid-gap: 2em;
+}
+h1:first-of-type {
+/*grid-column: span 2;*/
+grid-row: 2;
 }
 h2 {
-font-family: 'Roboto', sans-serif;
-font-size: 16px;
-line-height: 20px;
-}
-h3 {
-	font-family: 'Roboto', sans-serif;
-	font-size: 14px;
-	line-height: 18px;
-}
-ul {
-  margin:0; padding:0;
-  list-style:none;
-  position:relative;
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
-}
-
-li {
-  	margin: 5vw 2vw 2vw 2vw;
-  	background-color:white;
-  	width: 100%;
 
 }
+h3	{
+	font-weight: 300;
+	grid-row: 1;
+}
+a {
 
-img {
-  	display: block;
-  	width: 80vw;
-  	border-radius: 20px
 }
-ul li section {
-	position: absolute;
-	left: 0;
-	background-color: green;
-	bottom: 0;
+p {
+font-family: open-sans, sans-serif;
+font-style: normal;
+font-weight: 300;
 }
-
-ul li section h2 {
-  	position: absolute;
-  	/*left:0;
-  	bottom:;*/
-  	margin:0; 
-  	padding:0;
-  	color:black;
-  	background-color: white;
-  	width:;
-  	padding-bottom: 0;
+img:firstoftype {
+width: 100vw;
+margin: 0px;
+height: auto
+grid-column:span 2;
 }
-ul li section p {
-	position: absolute;
-	/*bottom:0;*/
-	margin:0; 
-	padding:0;
-	padding-top: 0;
-  	color:black;
-  	background-color: white;
-  	width: 90%;
+img.pagelink {
+width: 3em;
 }
