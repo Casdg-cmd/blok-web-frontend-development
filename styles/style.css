@@ -7,7 +7,11 @@ body {
 	font-style: normal;
 	font-weight: 300;
 	margin: 0;
+	transition: 1s;
+	font-size: 1em;
 }
+
+
 header {
 	margin-bottom: 2em;
 }
@@ -36,6 +40,12 @@ div.richtingen {
 	grid-gap: 2em;
 	margin: 0vw 15vw 0vw 15vw;
 }
+@media (max-width: 40em) { div.richtingen { 
+	display: grid;
+	grid-template-columns:1fr;
+	grid-gap: 2em;
+	margin: 0vw 15vw 0vw 15vw;
+	} }
 
 article {
 	display:grid;
@@ -45,13 +55,34 @@ article {
 	margin: 0vw 30vw 0vw 30vw;
 	background-color: #dde3e5;
 }
+@media (max-width:40em) { article {
+	display:grid;
+	grid-template-columns:1fr;
+	grid-gap: 2em;
+	justify-content: center;
+	margin: 0vw 15vw 0vw 15vw;
+	background-color: #dde3e5;
+	} }
 article h3 {
 text-align: left;
 }
+@media (max-width:40em) { article h3:first-of-type {
+grid-row: 1;
+	} }
+@media (max-width:40em) { article h3 {
+grid-row: 4;
+	} }
 article p {
 	width: 35vw;
 	grid-row: 2;
 }
+@media (max-width:40em) { article p:first-of-type {
+grid-row: 2;
+	} }
+@media (max-width:40em) { article p {
+grid-row: 5;
+width: 65vw;
+	} }
 article a {
 	background-color: #304454;
 	border: none;
@@ -65,8 +96,27 @@ article a {
 	grid-row: 3;
 	width: 35vw
 }
-a {
+article a:hover {
+transform: scaleX(1.05);
+background-color: #304454;
+transition: 0.5s;
+box-shadow: 2px 3px 6px -1px rgba(0,0,0,0.75);
+transform: translateY(1px);
 }
+article a:active {
+
+}
+article a:focus {
+
+}
+@media (max-width:40em) { article a:first-of-type {
+grid-row: 3;
+	} }
+@media (max-width:40em) { article a {
+grid-row: 6;
+width: 67vw;
+	} }
+
 p {
 	font-family: open-sans, sans-serif;
 	font-style: normal;
@@ -79,10 +129,13 @@ img {
 }
 img.bedrijfslogo {
 	display: flex;
-	width: 30vw;
+	width: 60vw;
 	 margin-left: auto;
     margin-right: auto;
     margin-top: 1em;
+}
+img.logoscroll {
+	width: 30vw;
 }
 img.deuren {
 	display: flex;
@@ -117,11 +170,15 @@ footer {
 }
 footer address {
 	display: grid;
-	grid-template-columns:1fr;
+	grid-template-columns: 1fr 1fr 1fr;
 	text-align: center;
 }
 footer address p:first-of-type {
 	color: white;
+	grid-row: 1;
+}
+footer address p:second-of-type {
+	grid-row: 2;
 }
 footer address p {
 	color: #777777;
@@ -142,4 +199,17 @@ footer p a:hover {
 footer p {
 	color: #777777;
 	text-align: center;
+}
+@media (max-width:40em) { footer address {
+	grid-template-columns: 1fr;
+	} }
+@media (max-width:40em) { footer p {
+width: 80vw;
+
+	} }
+ul	{
+	display: flex;
+	list-style: none;
+	flex-direction: row;
+	overflow-x: scroll;
 }
