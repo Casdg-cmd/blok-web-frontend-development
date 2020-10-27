@@ -13,7 +13,16 @@
 	<body>
 		<header>
 			<h1>De Groot en Hoogendam</h1>
-			<img src="images/logo.png" alt="Logo de Groot en Hoogendam" class="bedrijfslogo">
+			
+			<div id="nav">
+				<img src="images/logo.png" href="index.html" id="logo" alt="De Groot en Hoogendam">
+				<div id="navrechts">
+					<a class="active" href="index.html">Home</a>
+					<a href="pagina.html">Timmerfabriek</a>
+					<a href="#">Aannemersbedrijf</a>
+				</div>
+			</div>
+			
 		</header>
 		<main>
 			<img src="images/deuren.png" alt="Openslaande deuren" class="deuren">
@@ -21,37 +30,51 @@
 				<h2>TIMMERFABRIEK</h2>
 				<h2>AANNEMERSBEDRIJF</h2>
 			</div>
-			<h3>Welkom op de website Timmerfabriek Hillegom B.V. en Aannemersbedrijf De Groot en Hoogendam B.V.</h3>
-			<h3>Volg onze projecten op</h3>
-			<img class="facebooklink" src="images/facebooklogo.png" alt="Onze facebookpagina">
+			
 			<article>
-				<h3>Timmerfabriek</h3>
-				<p>
+				<h3 class="">Timmerfabriek</h3>
+				<p class="">
 					Timmerfabriek voor aannemers en particulieren!
 					In onze moderne Timmerfabriek maken wij alle soorten kozijnen, ramen (ook draai-kiep), deuren en puien op maat. Maar ook lat en lijstwerk. Alles van hout is mogelijk. Wij leveren maatwerk van één exemplaar tot middel-grote aantallen. We kunnen de producten los leveren, maar ook plaatsen.
 				</p>
-				<a>meer</a>
+				<a href="pagina.html">meer</a>
 				<h3>Aannemersbedrijf</h3>
 				<p>
 					Aannemersbedrijf De Groot en Hoogendam heeft vakmensen in dienst, gespecialiseerd in onderhoud, renovatie, timmerwerken, aan- en verbouw aan uw woning of bedrijfspand. Wij werken met de beste materialen, daarmee kunnen we in combinatie met ons vakmanschap de beste kwaliteit bieden. Wij komen graag bij u langs om uw wensen en de mogelijkheden te bespreken, zodat wij een vrijblijvende offerte voor u kunnen maken.
 				</p>
-				<a>Meer</a>
+				<a href="">Meer</a>
 			</article>
+			<h3 id="titellijst">Bouwen in de regio's</h3>
+			<div id="regio" >
+				<ul id="locatie">
+					<li>Hillegom</li>
+					<li>Lisse</li>
+					<li>Amsterdam</li>
+					<li>Leiden</li>
+					<li>Haarlem</li>
+					<li>Den Haag</li>
+					<li>Noordwijk</li>
+					<li>Hoofddorp</li>
+					<li>Wassenaar</li>
+					<li>Delft</li>
+					<li>Voorschoten</li>
+					<li>Oegstgeest</li>
+				</ul>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20727.502456592527!2d4.5799848485606995!3d52.28711765633436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e9cbbea9da2f%3A0x86786472d0890345!2sAannemersbedrijf%20Timmerfabriek%20De%20Groot%20%26%20Hoogendam!5e0!3m2!1snl!2snl!4v1603803251276!5m2!1snl!2snl" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+			</div>
+			
 			
 		</main>
 		<footer>
 			<address>
-				<p>KANTOOR – WERKPLAATS – SHOWROOM</p>
-				<p>Marconistraat 18 | 2181AK Hillegom | T<a href="tel:0252–518733">0252 – 51 87 33</a></p>
-				<a href="mailto:info@degrootenhoogendam.nl">info@degrootenhoogendam.nl </a>
-				<a href="#">degrootenhoogendam</a>
-				<p>OPENINGSTIJDEN ma t/m vrij 8.00 – 17.00 uur</p>
+				<p class="bedrijf">KANTOOR – WERKPLAATS – SHOWROOM</p>
+				<p class="adres">Marconistraat 18 | 2181AK Hillegom | T<a href="tel:0252–518733">0252 – 51 87 33</a></p>
+				<p><a href="mailto:info@degrootenhoogendam.nl" class="email">info@degrootenhoogendam.nl </a> | <a href="#" class="fb">degrootenhoogendam</a></p>
+				<p class="tijden">OPENINGSTIJDEN ma t/m vrij 8.00 – 17.00 uur</p>
 			</address>
-			
-			
-			<p>Download hier onze <a href="#">ALGEMENE VOORWAARDEN</a> of <a href="#">GARANTIE DUBBEL GLAS EN SCHILDERS ADVIES</a></p>
+			<p class="voorwaarden">Download hier onze <a href="#">ALGEMENE VOORWAARDEN</a> of <a href="#">GARANTIE DUBBEL GLAS EN SCHILDERS ADVIES</a></p>
+			<img src="images/politie-keurmerk.png" class="keurmerk" alt="Politie keurmerk">
 		</footer>
 		<script src="scripts/script.js"></script>
 	</body>
-	
 </html>

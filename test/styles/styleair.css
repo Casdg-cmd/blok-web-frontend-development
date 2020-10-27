@@ -1,0 +1,122 @@
+/* CSS Document */
+*, *::after, *::before {
+box-sizing:border-box;
+}
+font-family: 'Roboto', sans-serif;
+div.woonboot {
+position: relative;
+width: 100%;
+}
+.woonboot img {
+width: 100%;
+height: auto;
+}
+.woonboot button {
+position: absolute;
+top: 50%;
+left: 45%;
+background-color: white;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+/*display: inline-block;*/
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5%;
+}
+button:hover {
+background-color: rgb(255,255,255);
+}
+button:active {
+background-color: ;
+box-shadow: 2px 4px 8px -1px rgba(0,0,0,0.75);
+transform: translateY(3px);
+border: none;
+}
+nav {
+/*background: green;*/
+width: 100vw;
+height: 10vh;
+}
+h1 {
+font-family: 'Roboto', sans-serif;
+font-size: 22px;
+line-height: 26px;
+}
+h2 {
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+line-height: 20px;
+}
+h3 {
+font-family: 'Roboto', sans-serif;
+font-size: 14px;
+line-height: 18px;
+}
+ul {
+margin:0; padding:0;
+list-style:none;
+position:relative;
+display: flex;
+flex-direction: row;
+overflow-x: scroll;
+}
+li {
+margin: 5vw 2vw 2vw 2vw;
+background-color:white;
+width: 100%;
+}
+/*img {
+display: block;
+width: 80vw;
+border-radius: 20px
+}*/
+ul li section {
+/*position: absolute;
+background-color: green;*/
+left: 0;
+bottom: 0;
+}
+ul li section h2 {
+/*position: absolute;*/
+/*left:0;
+bottom:;*/
+margin:0;
+padding:0;
+color:black;
+background-color: white;
+width:;
+padding-bottom: 0;
+}
+ul li section p {
+/*position: absolute;*/
+/*bottom:0;*/
+margin:0;
+padding:0;
+padding-top: 0;
+color:black;
+background-color: white;
+width: 90%;
+}
+.button {
+background-color: black;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+margin: 4px 2px;
+cursor: pointer;
+border-radius: 5%;
+}
+.button:hover {background-color: #3e8e41}
+.button:active {
+background-color: #3e8e41;
+box-shadow: 0 5px #666;
+transform: translateY(4px);
+}
