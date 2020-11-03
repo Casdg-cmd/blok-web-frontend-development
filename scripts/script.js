@@ -23,6 +23,7 @@ function myFunction() {
     document.getElementById("bedrijfslogo").className = "";
   }
 }*/
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -34,3 +35,15 @@ function scrollFunction() {
    
   }
 }
+/*
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 75 || document.documentElement.scrollTop > 80) {
+    document.getElementById("nav").addClass = "verborgen";
+    document.getElementById("nav").removeClass = "inbeeld";
+  } else {
+    document.getElementById("nav").addClass = "inbeeld";
+    document.getElementById("nav").removeClass = "verborgen";
+  }
+}*/
