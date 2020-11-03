@@ -5,7 +5,6 @@
 		<meta charset="UTF-8">
 		<meta name="author" content="jouw naam">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		
 		<title>de Groot en Hoogendam</title>
 		<link rel="icon" href="images/logo.svg">
 		<link href="styles/style.css" rel="stylesheet">
@@ -13,16 +12,16 @@
 	<body>
 		<header>
 			<h1>De Groot en Hoogendam</h1>
-			
 			<nav id="nav" class="">
-				<img src="images/logo.png" href="index.html" id="logo" alt="De Groot en Hoogendam">
+				<a href="index.html">
+					<img src="images/logo.png" id="logo">
+				</a>
 				<div id="navrechts">
 					<a class="active" href="index.html">Home</a>
 					<a href="pagina.html">Timmerfabriek</a>
 					<a href="#">Aannemersbedrijf</a>
 				</div>
 			</nav>
-			
 		</header>
 		<main>
 			<img src="images/deuren.png" alt="Openslaande deuren" class="deuren">
@@ -30,7 +29,6 @@
 				<h2>TIMMERFABRIEK</h2>
 				<h2>AANNEMERSBEDRIJF</h2>
 			</div>
-			
 			<article>
 				<h3 class="">Timmerfabriek</h3>
 				<p class="">
@@ -38,14 +36,12 @@
 					In onze moderne Timmerfabriek maken wij alle soorten kozijnen, ramen (ook draai-kiep), deuren en puien op maat. Maar ook lat en lijstwerk. Alles van hout is mogelijk. Wij leveren maatwerk van één exemplaar tot middel-grote aantallen. We kunnen de producten los leveren, maar ook plaatsen.
 				</p>
 				<a href="pagina.html">meer</a>
-				
 				<h3>Aannemersbedrijf</h3>
 				<p>
 					Aannemersbedrijf De Groot en Hoogendam heeft vakmensen in dienst, gespecialiseerd in onderhoud, renovatie, timmerwerken, aan- en verbouw aan uw woning of bedrijfspand. Wij werken met de beste materialen, daarmee kunnen we in combinatie met ons vakmanschap de beste kwaliteit bieden. Wij komen graag bij u langs om uw wensen en de mogelijkheden te bespreken, zodat wij een vrijblijvende offerte voor u kunnen maken.
 				</p>
 				<a href="#">Meer</a>
 			</article>
-			
 			<form>
 				<h3>Afspraak maken</h3>
 				<label for="fname">Voornaam:</label>
@@ -62,8 +58,8 @@
 				<textarea id="subject" name="subject" placeholder="Korte omschrijving wensen"></textarea>
 				<input type="submit" value="Submit" class="knop">
 			</form>
-			<h3 id="titellijst">Bouwen in de regio's</h3>
-			<div id="regio" >
+			<section id="regio">
+				<h3 id="titellijst">Bouwen in de regio's</h3>
 				<ul id="locatie">
 					<li>Hillegom</li>
 					<li>Lisse</li>
@@ -78,10 +74,9 @@
 					<li>Voorschoten</li>
 					<li>Oegstgeest</li>
 				</ul>
-				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20727.502456592527!2d4.5799848485606995!3d52.28711765633436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e9cbbea9da2f%3A0x86786472d0890345!2sAannemersbedrijf%20Timmerfabriek%20De%20Groot%20%26%20Hoogendam!5e0!3m2!1snl!2snl!4v1603803251276!5m2!1snl!2snl" width="600" height="450" frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-			</div>
-			
-			
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20727.502456592527!2d4.5799848485606995!3d52.28711765633436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e9cbbea9da2f%3A0x86786472d0890345!2sAannemersbedrijf%20Timmerfabriek%20De%20Groot%20%26%20Hoogendam!5e0!3m2!1snl!2snl!4v1603803251276!5m2!1snl!2snl" width="600" height="450" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+				
+			</section>
 		</main>
 		<footer>
 			<address>
@@ -91,7 +86,7 @@
 				<p class="tijden">OPENINGSTIJDEN ma t/m vrij 8.00 – 17.00 uur</p>
 			</address>
 			<p class="voorwaarden">Download hier onze <a href="#">ALGEMENE VOORWAARDEN</a> of <a href="#">GARANTIE DUBBEL GLAS EN SCHILDERS ADVIES</a></p>
-			<img src="images/politie-keurmerk.png" class="keurmerk" alt="Politie keurmerk">
+			<img src="images/politie-keurmerk.png" alt="Politie keurmerk" class="keurmerk">
 		</footer>
 		<script src="scripts/script.js"></script>
 	</body>
