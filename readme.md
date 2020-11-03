@@ -15,8 +15,9 @@ https://www.w3schools.com/cssref/pr_grid-area.asp
 https://www.w3schools.com/jsref/prop_element_scrolltop.asp
 https://html-css-js.com/css/generator/box-shadow/
 
+## (Herkansing week 9)
 
-
+voor de herkansing heb ik voor mijn pagina's meer gekeken naar de vormgeving en de problemen met het caroussel en links. ook heb ik een formulier toegevoegd op de mainpage waar de gebruiker zijn gegevens kan invullen en ik heb op de timmerfabriek pagina de onderdelen aangepast. Hierbij vond ik het lastig om echt meer content toe te voegen door mijn keuze voor de site.
 
 ## Eindgesprek (week 7/8)
 
