@@ -14,14 +14,14 @@
 		<header>
 			<h1>De Groot en Hoogendam</h1>
 			
-			<div id="nav" class="">
+			<nav id="nav" class="">
 				<img src="images/logo.png" href="index.html" id="logo" alt="De Groot en Hoogendam">
 				<div id="navrechts">
 					<a class="active" href="index.html">Home</a>
 					<a href="pagina.html">Timmerfabriek</a>
 					<a href="#">Aannemersbedrijf</a>
 				</div>
-			</div>
+			</nav>
 			
 		</header>
 		<main>
@@ -38,13 +38,30 @@
 					In onze moderne Timmerfabriek maken wij alle soorten kozijnen, ramen (ook draai-kiep), deuren en puien op maat. Maar ook lat en lijstwerk. Alles van hout is mogelijk. Wij leveren maatwerk van één exemplaar tot middel-grote aantallen. We kunnen de producten los leveren, maar ook plaatsen.
 				</p>
 				<a href="pagina.html">meer</a>
-			
+				
 				<h3>Aannemersbedrijf</h3>
 				<p>
 					Aannemersbedrijf De Groot en Hoogendam heeft vakmensen in dienst, gespecialiseerd in onderhoud, renovatie, timmerwerken, aan- en verbouw aan uw woning of bedrijfspand. Wij werken met de beste materialen, daarmee kunnen we in combinatie met ons vakmanschap de beste kwaliteit bieden. Wij komen graag bij u langs om uw wensen en de mogelijkheden te bespreken, zodat wij een vrijblijvende offerte voor u kunnen maken.
 				</p>
-				<a href="">Meer</a>
+				<a href="#">Meer</a>
 			</article>
+			
+			<form>
+				<h3>Afspraak maken</h3>
+				<label for="fname">Voornaam:</label>
+				<input type="text" id="fname" name="firstname" placeholder="voornaam">
+				<label for="lname">Achernaam:</label>
+				<input type="text" id="lname" name="lastname" placeholder="achternaam">
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email" placeholder="Emailadres@email.adres" autocomplete="off">
+				<label for="phone">Telefoon:</label>
+				<input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+				<label for="week">Beschikbaar in:</label>
+				<input type="week" id="week" name="week">
+				<label for="subject">Onderwerp:</label>
+				<textarea id="subject" name="subject" placeholder="Korte omschrijving wensen"></textarea>
+				<input type="submit" value="Submit" class="knop">
+			</form>
 			<h3 id="titellijst">Bouwen in de regio's</h3>
 			<div id="regio" >
 				<ul id="locatie">
